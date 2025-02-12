@@ -32,6 +32,12 @@ a{
     text-decoration: none;
 }
 
+p, h2, h3, h4{
+    margin: 0;
+}
+
+
+
 /* --------------------------------------------------------------------------
 COMPONENT
 --------------------------------------------------------------------------*/
@@ -54,6 +60,8 @@ h1{
 
     padding-top: 40px;
     padding-bottom: 40px;
+
+    margin: 0;
 }
 
 
@@ -65,6 +73,7 @@ h1{
 
     display: flex;
     justify-content: flex-end;
+    margin: 0;
 }
 
 .contenue .left{
@@ -143,13 +152,16 @@ h1{
     height: 230px;
 }
 
-.intro .into-texte{
-    padding: 45px 0px;
+.info .into-texte{
+    padding-bottom: 45px;
 }
 
-.intro .left{
-    padding: 45px 0px;
+.info .left{
     padding-left: 45px;
+}
+
+.info .right{
+    padding-right: 45px;
 }
 
 .info .wrapper, .info .wrapper h3{
@@ -195,4 +207,9 @@ footer .arrow-box{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
 }
