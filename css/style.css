@@ -138,9 +138,14 @@ h1{
     background-color: #FFFFFF;
 }
 
-.contenue .bg-gray{
+.contenue .left:hover{
     background-color: #BDC3C7;
 }
+
+.contenue .right:hover{
+    background-color: #BDC3C7;
+}
+
 
 .contenue .p-end{
     display: flex;
