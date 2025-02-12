@@ -103,6 +103,11 @@ h1{
 }
 
 .contenue h2{
+    font-family: "Quicksand", serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+
     display: flex;
     justify-content: center;
     color: #D35400;
@@ -138,6 +143,14 @@ h1{
     height: 230px;
 }
 
+.intro .into-texte{
+    padding: 45px 0px;
+}
+
+.intro .left{
+    padding: 45px 0px;
+    padding-left: 45px;
+}
 
 .info .wrapper, .info .wrapper h3{
     display: grid;
