@@ -134,6 +134,8 @@ h1{
     
     border: solid #D35400 5px;
     border-radius: 50%;
+
+    background-color: #FFFFFF;
 }
 
 .contenue .bg-gray{
@@ -144,14 +146,12 @@ h1{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 230px;
 }
 
 .contenue .p-start{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 230px;
 }
 
 /* --------== SECTION INFOS ==-------- */
